@@ -1,0 +1,293 @@
+/* Add CSS here */
+body {
+    background-color: #057287;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 300px;
+    height: 510px;
+    background-color: #208fa3;
+}
+
+.holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.holder h1 {
+    color: white;
+}
+
+.holder p {
+    color: white;
+    font-size: 13px;
+}
+
+.closet {
+    background-color: white;
+    height: 220px;
+    width: 100%;
+}
+
+.card-1 {
+    background-color: white;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auction {
+    text-align: center;
+}
+
+.auction h1 {
+    font-size: 15px;
+    color: rgb(143, 140, 140);
+}
+
+.auction h2 {
+    font-size: 25px;
+    color: rgb(143, 140, 140);
+}
+
+.card-2 {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 100px;
+}
+
+.sphere {
+    border-width: 6px;
+    height: 150px;
+    width: 150px;
+    border-radius: 5em;
+    border-color: #e23874;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sphere h1 {
+    font-size: 40px;
+    color: #918c8c;
+    font-weight: 700;
+}
+
+.sphere p {
+    font-size: 20px;
+    color: #867e7e;
+    font-weight: 700;
+}
+
+.activites {
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activites h1 {
+    font-size: 16px;
+    color: white;
+}
+
+.main-cont {
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.content h2 {
+    font-size: 13px;
+    color: white;
+}
+
+.icons {
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.go {
+    width: 30%;
+    height: 30px;
+    border-radius: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:600px) {
+    body {
+        background-color: #057287;
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .container {
+        width: 80%;
+        height: 510px;
+        background-color: #208fa3;
+    }
+
+    .holder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .holder h1 {
+        color: white;
+    }
+
+    .holder p {
+        color: white;
+        font-size: 13px;
+    }
+
+    .closet {
+        background-color: white;
+        height: 220px;
+        width: 100%;
+    }
+
+    .card-1 {
+        background-color: white;
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .auction {
+        text-align: center;
+    }
+
+    .auction h1 {
+        font-size: 15px;
+        color: rgb(143, 140, 140);
+    }
+
+    .auction h2 {
+        font-size: 25px;
+        color: rgb(143, 140, 140);
+    }
+
+    .card-2 {
+        background-color: white;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 100px;
+    }
+
+    .sphere {
+        border-width: 6px;
+        height: 150px;
+        width: 150px;
+        border-radius: 5em;
+        border-color: #e23874;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .sphere h1 {
+        font-size: 40px;
+        color: #918c8c;
+        font-weight: 700;
+    }
+
+    .sphere p {
+        font-size: 20px;
+        color: #867e7e;
+        font-weight: 700;
+    }
+
+    .activites {
+        height: 180px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activites h1 {
+        font-size: 16px;
+        color: white;
+    }
+
+    .main-cont {
+        height: 40px;
+        width: 100%;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .content h2 {
+        font-size: 13px;
+        color: white;
+    }
+
+    .icons {
+        height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .go {
+        width: 30%;
+        height: 30px;
+        border-radius: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
